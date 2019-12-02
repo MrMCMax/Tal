@@ -1,0 +1,9 @@
+/BasicDataStructures/build/
+#/BasicDataStructures/dist/
+#/TalLogic/dist/
+/BasicDataStructures/nbproject/private/
+/TalLogic/build/
+*.ctxt
+/BasicDataStructures/src/*.class
+/TalLogic/src/*.class
+/TalInterface/src/*.class
