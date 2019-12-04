@@ -13,18 +13,18 @@ import librerias.estructurasDeDatos.modelos.*;
  * @author maximo
  */
 public class TestMain {
-    public static void main1(String[] args) {
+    public static void main(String[] args) {
         final TalServer server = new StreamTalServer();
         Thread t = new Thread(() -> {
             server.listen();
         });
         t.start();
-        Automata big = server.openAutomata("/home/maximo/Documentos/Automatas/long.a");
+        Automata big = server.openAutomata("/home/maximo/Documentos/Automatas/Book.a");
         Automata minimum = big.minimize();
         System.out.println(minimum.toString());
     }
     
-    public static void main(String args[]) {
+    public static void main1(String args[]) {
         ListaConPI<Integer> l = new LEGListaConPI<>();
     }
 }

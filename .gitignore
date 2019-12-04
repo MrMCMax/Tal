@@ -7,3 +7,5 @@
 /BasicDataStructures/src/*.class
 /TalLogic/src/*.class
 /TalInterface/src/*.class
+/JavaFXModules/build/
+/JavaFXModules/nbproject/private/

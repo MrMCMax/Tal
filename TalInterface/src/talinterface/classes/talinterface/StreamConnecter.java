@@ -24,7 +24,7 @@ public class StreamConnecter extends Connecter {
         super();
         try {
             String currentPath = System.getProperty("user.dir");
-            String finalPath = currentPath.substring(0, currentPath.length() - 12);
+            String finalPath = currentPath.substring(0, currentPath.length() - 13);
             System.out.println(finalPath);
             finalPath = finalPath + "TalLogic/dist/TalLogic.jar";
             Runtime rt = Runtime.getRuntime();
